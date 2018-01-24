@@ -4,7 +4,7 @@ def turn_count(board)
   board[counter].each {|counter|  }
   if board[counter] == "X" || board[counter] == "O"
     turn 1
-  end  
+  end
 
 end
 
@@ -13,5 +13,6 @@ def current_player(board)
   if count % 2 || count == 0
     return "X"
   else
-    return "O"  
+    return "O"
+  end  
 end
