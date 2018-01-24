@@ -1,6 +1,6 @@
 def turn_count(board)
   counter = 0
-  board[space].each do
+  board.each do
     if space == "X" || space == "O"
       counter += 1
     end
